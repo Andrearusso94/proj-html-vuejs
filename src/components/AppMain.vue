@@ -1,6 +1,10 @@
 <script>
+import Services from './Services.vue'
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        Services,
+    }
 }
 </script>
 <template>
@@ -16,6 +20,7 @@ export default {
 
                 </div>
             </div>
+            <Services></Services>
         </div>
     </main>
 
