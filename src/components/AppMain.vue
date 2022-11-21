@@ -2,10 +2,11 @@
 import Services from './Services.vue'
 import Products from './Products.vue'
 import Reviews from './Reviews.vue'
+import Blog from './Blog.vue'
 export default {
     name: 'AppMain',
     components: {
-        Services, Products, Reviews,
+        Services, Products, Reviews, Blog
     }
 }
 </script>
@@ -45,6 +46,7 @@ export default {
                 </div>
             </div>
             <Reviews></Reviews>
+            <Blog></Blog>
         </div>
 
     </main>
