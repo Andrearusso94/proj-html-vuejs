@@ -51,7 +51,7 @@ export default {
                 </div>
 
             </div>
-            <div class="about text-center">
+            <div class="about text-center py-5">
                 <button>Shop our product range</button>
             </div>
 
