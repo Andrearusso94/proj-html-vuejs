@@ -9,7 +9,7 @@ export default {
 
         <div class="row justify-content-between">
             <div class="col-6 my-4"><img src="../assets/img/avadabarbers-logo-x1.png" alt=""></div>
-            <div class="col-6 icon">Icon Font Awesome</div>
+            <div class="col-6 my-4 icon">Icon Font Awesome</div>
         </div>
 
     </nav>
