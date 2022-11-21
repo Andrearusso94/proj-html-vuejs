@@ -1,9 +1,10 @@
 <script>
 import Services from './Services.vue'
+import Products from './Products.vue'
 export default {
     name: 'AppMain',
     components: {
-        Services,
+        Services, Products,
     }
 }
 </script>
@@ -21,6 +22,7 @@ export default {
                 </div>
             </div>
             <Services></Services>
+            <Products></Products>
         </div>
     </main>
 
