@@ -1,9 +1,10 @@
 <script>
 import NavbarVue from './Navbar.vue';
+import PresentationVue from './Presentation.vue';
 export default {
     name: 'AppHeader',
     components: {
-        NavbarVue
+        NavbarVue, PresentationVue,
     }
 }
 </script>
@@ -12,27 +13,8 @@ export default {
         <div id="site_header" class="container-fluid">
 
             <NavbarVue></NavbarVue>
-            <div class="container primary-container">
-                <div class="row g-2">
-                    <div class="col-6">
-                        <div class="cards my-5 mx-5">
-                            <div class="cards_body">
-                                <h1>Barber Shop</h1>
-                                <h6 class="card-subtitle  text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
+            <PresentationVue></PresentationVue>
 
-                    </div>
-                    <div class="col-6">
-                        <img src="../assets/img/avadabarbers_hero_focalmirror-400x550.png" alt="">
-                    </div>
-
-                </div>
-            </div>
         </div>
 
 
@@ -45,12 +27,7 @@ export default {
 
 .container-fluid {
     background-image: url(../assets/img/avadabarbers-homepage-hero-bg.jpg);
-    background-size: contain;
+    background-size: cover;
 
-}
-
-.primary-container {
-    margin-top: 1.5rem;
-    padding-bottom: 2.5rem;
 }
 </style>

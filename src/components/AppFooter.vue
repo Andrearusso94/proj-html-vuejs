@@ -13,7 +13,11 @@ export default {
         <div class="footer_top">
             <FooterTop></FooterTop>
         </div>
-        <div class="footer_bottom"></div>
+        <div class="footer_bottom">
+            <div class="copyright py-4">
+                <p>Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+            </div>
+        </div>
     </footer>
 </template>
 <style lang="scss" scoped>
@@ -25,6 +29,11 @@ export default {
 
 .footer_top {
     background-color: $dark;
+    color: $light-dark;
+}
+
+.copyright {
+    background-color: $darker;
     color: $light-dark;
 }
 </style>
