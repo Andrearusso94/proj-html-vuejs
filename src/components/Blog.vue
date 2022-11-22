@@ -41,6 +41,7 @@ export default {
                         <img :src="imagePath(item.image)" alt="">
                         <h3>{{ item.title }}</h3>
                         <p>{{ item.text }}</p>
+
                     </div>
                 </div>
 
