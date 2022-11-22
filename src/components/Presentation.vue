@@ -34,8 +34,9 @@ export default {
     padding-bottom: 2.5rem;
 
     h1 {
-        font-size: 5rem;
-        color: $light-dark;
+        font-size: 5.2rem;
+        color: $primary;
+        font-weight: bold;
     }
 
     p {

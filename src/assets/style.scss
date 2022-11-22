@@ -1,9 +1,15 @@
 @use '../../node_modules/bootstrap/scss/bootstrap.scss';
 @use './partials/variables' as *;
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Old+Standard+TT:wght@400;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Old Standard TT', serif;
 }

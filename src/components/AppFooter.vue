@@ -33,7 +33,7 @@ export default {
 }
 
 .copyright {
-    background-color: $darker;
+    background-color: $footer-darker;
     color: $light-dark;
 }
 </style>
