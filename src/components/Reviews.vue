@@ -37,11 +37,11 @@ export default {
             <h2 class="text-center">Reviews</h2>
             <div class="row my-5">
                 <div v-for="item in person" class="col-4 person">
-                    <div class="single_person">
-                        <p>{{ item.text }}</p>
+                    <div class="single_person mx-5">
+                        <p class="my-3">{{ item.text }}</p>
                         <img class="rounded-circle" :src="imagePath(item.img)" alt="">
 
-                        <h3>{{ item.name }}</h3>
+                        <h4 class="my-3">{{ item.name }}</h4>
 
 
                     </div>
@@ -54,11 +54,36 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
+@use '../assets/partials/variables' as *;
+
+h6 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: $another;
+}
+
+h2 {
+    font-size: 4.5rem;
+    color: $light-dark;
+}
+
+p {
+    color: $light-dark;
+}
+
+h4 {
+    color: $another;
+}
+
 .person {
     text-align: center;
 
     img {
         width: 30%;
+    }
+
+    .single_person {
+        width: 80%;
     }
 }
 </style>

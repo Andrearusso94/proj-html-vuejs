@@ -34,12 +34,12 @@ export default {
     <div class="container-fluid py-5 blogs">
         <div class="container py-5">
             <h6 class="text-center">Tales From the barber shop</h6>
-            <h2 class="text-center">Recent blog post</h2>
+            <h2 class="text-center">Recent Blog Post</h2>
             <div class="row g-0 my-5">
                 <div v-for="item in Blog" class="col-4 service">
-                    <div class="single_service">
+                    <div class="single_service mx-5">
                         <img :src="imagePath(item.image)" alt="">
-                        <h3>{{ item.title }}</h3>
+                        <h3 class="my-3">{{ item.title }}</h3>
                         <p>{{ item.text }}</p>
 
                     </div>
@@ -47,7 +47,7 @@ export default {
 
             </div>
             <div class="about text-center">
-                <button>Read more from our blog</button>
+                <button class="my_button"><a href="#" class="card-link">Read more from our blog</a></button>
             </div>
 
         </div>
@@ -59,5 +59,39 @@ export default {
 .blogs {
     text-align: center;
     background-color: $light-grey;
+}
+
+h6,
+h3 {
+    color: $another;
+}
+
+p {
+    color: $light-dark;
+}
+
+h2 {
+    color: $light-dark;
+    font-size: 4.5rem;
+}
+
+.single_service {
+    width: 65%;
+
+
+}
+
+.my_button {
+    border: 2px solid $another;
+    padding: 0.5rem 1.5rem;
+    background-color: $light-grey;
+
+
+    a {
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $another;
+    }
 }
 </style>
