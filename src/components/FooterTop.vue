@@ -22,7 +22,7 @@ export default {
             <div class="col-4">
                 <div class="mini_shop py-2">
                     <img src="../assets/img/avadabarbers_footer_shop_image-400x312.png" alt="">
-                    <button>Shop our range now</button>
+                    <button class="my_button"><a href="#" class="card-link">Shop our range now</a></button>
                 </div>
             </div>
             <div class="col-4">
@@ -36,22 +36,28 @@ export default {
                     <h6>{{ item.email }}</h6>
                     <h6>{{ item.numberTelephone }}</h6>
                 </div>
+                <div class="follow_us">
+                    <h5>Follow us</h5>
+                    <div class="socials">
+                        <font-awesome-icon class="social mx-2" icon="fa-brands fa-facebook-f" />
+                        <font-awesome-icon class="social mx-2" icon="fa-brands fa-twitter" />
+                        <font-awesome-icon class="social mx-2" icon="fa-brands fa-youtube" />
+                        <font-awesome-icon class="social mx-2" icon="fa-brands fa-instagram" />
+                    </div>
+                </div>
             </div>
             <div class="col-4">
                 <div class="mini_shop py-2">
                     <img src="../assets/img/avadabarbers_footer_appointment_image-400x312.png" alt="">
-                    <button>Shop our range now</button>
+                    <button class="my_button"><a href="#" class="card-link">Book your appointment</a></button>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="follow_us">
-                    <h5>Follow us</h5>
 
-                </div>
             </div>
         </div>
+
+
+
+
 
     </div>
 
@@ -67,5 +73,26 @@ export default {
 
 h6 {
     color: $light-dark;
+}
+
+h5 {
+    color: $another;
+}
+
+.my_button {
+    border: 2px solid $another;
+    padding: 0.5rem 2rem;
+    background-color: $dark;
+
+    a {
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $another;
+    }
+}
+
+.socials {
+    margin-top: 2rem;
 }
 </style>
