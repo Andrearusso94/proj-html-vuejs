@@ -35,25 +35,67 @@ export default {
         <div class="container py-5">
             <h6 class="text-center">Mens Grooming</h6>
             <h2 class="text-center">Services</h2>
-            <div class="row my-5">
+            <div class="row py-5 my-5">
                 <div v-for="item in services" class="col-4 service">
-                    <div class="single_service">
+                    <div class="single_service mx-5">
                         <img :src="imagePath(item.image)" alt="">
-                        <h3>{{ item.title }}</h3>
+                        <h3 class="py-5">{{ item.title }}</h3>
                         <p>{{ item.text }}</p>
                     </div>
                 </div>
 
             </div>
             <div class="about text-center">
-                <button>Read about Services</button>
+                <button class="my_button"><a href="#" class="card-link">Meet your new barber</a></button>
             </div>
 
         </div>
     </div>
 </template>
 <style lang="scss" scoped>
-.service {
-    text-align: center;
+@use '../assets/partials/variables' as *;
+
+.services {
+    .single_service {
+        width: 65%;
+        text-align: center;
+    }
+
+    h6 {
+        text-transform: uppercase;
+        color: $another;
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        color: $another;
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+        color: $light-dark;
+    }
+
+    p {
+        color: $light-dark;
+    }
+
+    .service {
+        text-align: center;
+    }
+
+    .my_button {
+        border: 1px solid $another;
+        padding: 0.5rem 1.5rem;
+
+
+        a {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $another;
+        }
+    }
 }
 </style>

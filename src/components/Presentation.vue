@@ -53,6 +53,7 @@ export default {
         background-color: $dark;
 
         a {
+            text-transform: uppercase;
             text-decoration: none;
             color: $another;
         }

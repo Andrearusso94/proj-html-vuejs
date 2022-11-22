@@ -40,7 +40,7 @@ export default {
     <div class="container-fluid py-5 products">
         <div class="container-fluid py-5">
             <h6 class="text-center">We Have you covered</h6>
-            <h2 class="text-center">Avada grooming products</h2>
+            <h2 class="text-center">Avada Grooming Products</h2>
             <div class="row my-5">
                 <div v-for="item in products" class="col-3 product">
                     <div class="single_product">
@@ -52,16 +52,52 @@ export default {
 
             </div>
             <div class="about text-center py-5">
-                <button>Shop our product range</button>
+                <button class="my_button"><a href="#" class="card-link">Shop our product range</a></button>
             </div>
 
         </div>
     </div>
 </template>
 <style lang="scss" scoped>
+@use '../assets/partials/variables' as *;
+
 .products {
     background-image: url(../assets/img/avadabarbers-reviewsbackground.jpg);
     background-size: cover;
+
+    h6 {
+        text-transform: uppercase;
+        color: $another;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+        color: $light-dark;
+    }
+
+    h3 {
+        color: $another;
+        font-size: 2.25rem;
+    }
+
+    p {
+        color: $another;
+    }
+
+    .my_button {
+        background-color: $dark;
+        border: 2px solid $another;
+        padding: 0.65rem 2rem;
+
+
+        a {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $another;
+        }
+    }
 }
 
 .product {
