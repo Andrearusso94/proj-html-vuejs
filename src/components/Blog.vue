@@ -33,7 +33,7 @@ export default {
 <template>
     <div class="container-fluid py-5 blogs">
         <div class="container py-5">
-            <h6 class="text-center">Tales From the barber shop</h6>
+            <h5 class="text-center">Tales From the barber shop</h5>
             <h2 class="text-center">Recent Blog Post</h2>
             <div class="row g-0 my-5">
                 <div v-for="item in Blog" class="col-4 service">
@@ -58,21 +58,27 @@ export default {
 
 .blogs {
     text-align: center;
-    background-color: $light-grey;
+    background-color: $special;
 }
 
-h6,
+h5,
 h3 {
     color: $another;
+    font-weight: bold;
+}
+
+h5 {
+    text-transform: uppercase;
 }
 
 p {
-    color: $light-dark;
+    color: $grey-text;
 }
 
 h2 {
-    color: $light-dark;
+    color: $light-grey;
     font-size: 4.5rem;
+    font-weight: bold;
 }
 
 .single_service {
@@ -84,7 +90,7 @@ h2 {
 .my_button {
     border: 2px solid $another;
     padding: 0.5rem 1.5rem;
-    background-color: $light-grey;
+    background-color: $special;
 
 
     a {
@@ -92,6 +98,10 @@ h2 {
         text-transform: uppercase;
         text-decoration: none;
         color: $another;
+    }
+
+    a:hover {
+        opacity: 0.5;
     }
 }
 </style>

@@ -60,19 +60,23 @@ h6 {
     text-transform: uppercase;
     font-size: 1.25rem;
     color: $another;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 4.5rem;
-    color: $light-dark;
+    color: $light-grey;
+    font-weight: bold;
 }
 
 p {
-    color: $light-dark;
+    color: $grey-text;
+    font-size: 1.15rem;
 }
 
 h4 {
     color: $another;
+    font-weight: bold;
 }
 
 .person {

@@ -72,11 +72,14 @@ export default {
 }
 
 h6 {
-    color: $light-dark;
+    color: $grey-text;
+
 }
 
 h5 {
     color: $another;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .my_button {
@@ -90,9 +93,14 @@ h5 {
         text-decoration: none;
         color: $another;
     }
+
+    a:hover {
+        opacity: 0.5;
+    }
 }
 
 .socials {
     margin-top: 2rem;
+    color: $primary;
 }
 </style>

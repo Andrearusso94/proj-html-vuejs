@@ -17,7 +17,7 @@ export default {
                 {
                     image: '../assets/img/avadabarbers-beardtrim-icon.png',
                     title: 'Beard Tidy',
-                    text: 'Tame the tangles and untidy facial hairs like a gentleman with our Bread <tidy services from Avada Barbers.'
+                    text: 'Tame the tangles and untidy facial hairs like a gentleman with our Bread tidy services from Avada Barbers.'
                 },]
         }
 
@@ -65,20 +65,23 @@ export default {
         text-transform: uppercase;
         color: $another;
         font-size: 1.5rem;
+        font-weight: bold;
     }
 
     h3 {
         color: $another;
         font-size: 2rem;
+        font-weight: bold;
     }
 
     h2 {
         font-size: 5rem;
-        color: $light-dark;
+        color: $light-grey;
+        font-weight: bold;
     }
 
     p {
-        color: $light-dark;
+        color: $grey-text;
     }
 
     .service {
@@ -95,6 +98,10 @@ export default {
             text-transform: uppercase;
             text-decoration: none;
             color: $another;
+        }
+
+        a:hover {
+            opacity: 0.5;
         }
     }
 }

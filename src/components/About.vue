@@ -27,12 +27,16 @@ export default {
     text-align: center;
 
     h6 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem;
         color: $another;
     }
 
     h2 {
+        font-weight: bold;
         font-size: 4.5rem;
-        color: $light-dark;
+        color: $light-grey;
     }
 
     .my_button {
@@ -44,6 +48,10 @@ export default {
             text-transform: uppercase;
             text-decoration: none;
             color: $another;
+        }
+
+        a:hover {
+            opacity: 0.5;
         }
     }
 }

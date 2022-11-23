@@ -56,15 +56,17 @@ export default {
     h5 {
         text-transform: uppercase;
         color: $another;
+        font-weight: bold;
     }
 
     h2 {
         font-size: 5rem;
-        color: $light-dark;
+        color: $light-grey;
+        font-weight: bold;
     }
 
     p {
-        color: $light-dark,
+        color: $grey-text,
     }
 }
 
@@ -78,6 +80,10 @@ export default {
         text-transform: uppercase;
         text-decoration: none;
         color: $another;
+    }
+
+    a:hover {
+        opacity: 0.5;
     }
 }
 </style>

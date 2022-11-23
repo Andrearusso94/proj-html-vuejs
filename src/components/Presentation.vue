@@ -12,7 +12,7 @@ export default {
                         <h1 class="py-3">Barber Shop</h1>
 
                         <div class="line py-3"></div>
-                        <p class="card-text text-secondary py-3">The Pinnacle of Male Grooming</p>
+                        <p class="card-text py-3">The Pinnacle of Male Grooming</p>
                         <button class="my_button"><a href="#" class="card-link">Learn More</a></button>
 
                     </div>
@@ -40,7 +40,8 @@ export default {
     }
 
     p {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+        color: $light-dark;
     }
 
     .line {
@@ -52,6 +53,12 @@ export default {
         border: 1px solid $another;
         padding: 0.5rem 1.5rem;
         background-color: $dark;
+
+
+
+        a:hover {
+            opacity: 0.5;
+        }
 
         a {
             text-transform: uppercase;
