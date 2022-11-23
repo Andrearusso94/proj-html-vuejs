@@ -17,15 +17,7 @@ export default {
 
             <!--presentazione negozio-->
             <PresentationVue></PresentationVue>
-            <div class="square top demos">
-                <font-awesome-icon icon="fa-solid fa-folder-open" />
 
-            </div>
-            <div class="square sale">
-                <span class="dollar">$</span>
-                <span class="price">39</span>
-
-            </div>
         </div>
 
 
@@ -41,41 +33,6 @@ export default {
     background-size: cover;
     position: relative;
 
-    .square {
-        padding: 0.75rem;
-        position: absolute;
-        top: 220px;
-        left: 96%;
-        background-color: $special;
-        border-radius: 3px;
-    }
-
-    .top {
-        padding: 0.85rem;
-        top: 160px;
-        text-align: center;
-        color: rgb(12, 12, 81);
-    }
-
-    p {
-        font-size: 0.75rem;
-    }
-
-    .sale {
-
-        color: forestgreen;
-
-        .dollar {
-            font-size: 0.5rem;
-
-
-        }
-
-        .on_sale {
-            font-size: 0.5rem;
-        }
-
-    }
 
 }
 </style>
