@@ -5,17 +5,17 @@ export default {
         return {
             services: [
                 {
-                    image: '../assets/img/avadabarbers-trimcut-icon-before.png',
+                    image: '../../assets/img/avadabarbers-trimcut-icon-before.png',
                     title: 'Trim & Cut',
                     text: 'Avada Barbers are experts in the lickety split trim and hair cut. Quick but careful and ridiculosly good looking.'
                 },
                 {
-                    image: '../assets/img/avadabarbers-washndry-icon.png',
+                    image: '../../assets/img/avadabarbers-washndry-icon.png',
                     title: 'Wash & Dry',
                     text: 'Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.'
                 },
                 {
-                    image: '../assets/img/avadabarbers-beardtrim-icon.png',
+                    image: '../../assets/img/avadabarbers-beardtrim-icon.png',
                     title: 'Beard Tidy',
                     text: 'Tame the tangles and untidy facial hairs like a gentleman with our Bread tidy services from Avada Barbers.'
                 },]
@@ -33,8 +33,12 @@ export default {
 <template>
     <div class="container-fluid py-5 services">
         <div class="container py-5">
-            <h6 class="text-center">Mens Grooming</h6>
-            <h2 class="text-center">Services</h2>
+            <div class="row">
+                <div class="col">
+                    <h6 class="text-center">Mens Grooming</h6>
+                    <h2 class="text-center">Services</h2>
+                </div>
+            </div>
             <div class="row py-5 my-5">
                 <div v-for="item in services" class="col-4 service">
                     <div class="single_service mx-5">
@@ -53,7 +57,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../assets/partials/variables' as *;
+@use '../../assets/partials/variables' as *;
 
 .services {
     .single_service {

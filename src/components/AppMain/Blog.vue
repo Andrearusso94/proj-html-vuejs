@@ -5,17 +5,17 @@ export default {
         return {
             Blog: [
                 {
-                    image: '../assets/img/avadabarbers-second-blog-320x202.jpg',
+                    image: '../../assets/img/avadabarbers-second-blog-320x202.jpg',
                     title: 'Avada Barbers Now Open',
                     text: 'Avada Barbers are experts in the lickety split trim and hair cut. Quick but careful and ridiculosly good looking.'
                 },
                 {
-                    image: '../assets/img/avadabarbers-choosing-blog-320x202.jpg',
+                    image: '../../assets/img/avadabarbers-choosing-blog-320x202.jpg',
                     title: 'Choosing The Right Barber',
                     text: 'Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.'
                 },
                 {
-                    image: '../assets/img/avadabarbers-ourservice-blog-320x202.jpg',
+                    image: '../../assets/img/avadabarbers-ourservice-blog-320x202.jpg',
                     title: 'Quick Service Guide',
                     text: 'Tame the tangles and untidy facial hairs like a gentleman with our Bread <tidy services from Avada Barbers.'
                 },]
@@ -33,8 +33,13 @@ export default {
 <template>
     <div class="container-fluid py-5 blogs">
         <div class="container py-5">
-            <h5 class="text-center">Tales From the barber shop</h5>
-            <h2 class="text-center">Recent Blog Post</h2>
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-center">Tales From the barber shop</h5>
+                    <h2 class="text-center">Recent Blog Post</h2>
+                </div>
+            </div>
+
             <div class="row g-0 my-5">
                 <div v-for="item in Blog" class="col-4 service">
                     <div class="single_service mx-5">
@@ -54,7 +59,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../assets/partials/variables' as *;
+@use '../../assets/partials/variables' as *;
 
 .blogs {
     text-align: center;

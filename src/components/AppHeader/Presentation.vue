@@ -20,14 +20,14 @@ export default {
 
             </div>
             <div class="col-6">
-                <img src="../assets/img/avadabarbers_hero_focalmirror-600x825.png" alt="">
+                <img src="../../assets/img/avadabarbers_hero_focalmirror-600x825.png" alt="">
             </div>
 
         </div>
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../assets/partials/variables' as *;
+@use '../../assets/partials/variables' as *;
 
 .primary-container {
     margin-top: 1.5rem;

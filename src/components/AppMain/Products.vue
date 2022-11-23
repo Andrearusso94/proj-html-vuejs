@@ -5,22 +5,22 @@ export default {
         return {
             products: [
                 {
-                    image: '../assets/img/brush_dark-400x400.png',
+                    image: '../../assets/img/brush_dark-400x400.png',
                     title: 'Brush',
                     price: '$15.00'
                 },
                 {
-                    image: '../assets/img/scissors-400x400.png',
+                    image: '../../assets/img/scissors-400x400.png',
                     title: 'Scissor',
                     price: '$85.00'
                 },
                 {
-                    image: '../assets/img/hot_oil_dark-400x400.png',
+                    image: '../../assets/img/hot_oil_dark-400x400.png',
                     title: 'Hot Oil',
                     price: '$15.00'
                 },
                 {
-                    image: '../assets/img/straight_razor_dark-400x400.png',
+                    image: '../../assets/img/straight_razor_dark-400x400.png',
                     title: 'Straight Razor',
                     price: '$30.00'
                 },
@@ -39,8 +39,13 @@ export default {
 <template>
     <div class="container-fluid py-5 products">
         <div class="container-fluid py-5">
-            <h6 class="text-center">We Have you covered</h6>
-            <h2 class="text-center">Avada Grooming Products</h2>
+            <div class="row">
+                <div class="col">
+                    <h6 class="text-center">We Have you covered</h6>
+                    <h2 class="text-center">Avada Grooming Products</h2>
+                </div>
+            </div>
+
             <div class="row my-5">
                 <div v-for="item in products" class="col-3 product">
                     <div class="single_product">
@@ -59,10 +64,10 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../assets/partials/variables' as *;
+@use '../../assets/partials/variables' as *;
 
 .products {
-    background-image: url(../assets/img/avadabarbers-reviewsbackground.jpg);
+    background-image: url(../../assets/img/avadabarbers-reviewsbackground.jpg);
     background-size: cover;
 
     h6 {

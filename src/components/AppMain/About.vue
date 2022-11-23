@@ -16,10 +16,10 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../assets/partials/variables' as *;
+@use '../../assets/partials/variables' as *;
 
 .about {
-    background-image: url(../assets/img/avadabarbers-about-introbackground.jpg);
+    background-image: url(../../assets/img/avadabarbers-about-introbackground.jpg);
     background-size: cover;
 }
 

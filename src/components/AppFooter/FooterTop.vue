@@ -21,7 +21,7 @@ export default {
         <div class="row  py-5">
             <div class="col-4">
                 <div class="mini_shop py-2">
-                    <img src="../assets/img/avadabarbers_footer_shop_image-400x312.png" alt="">
+                    <img src="../../assets/img/avadabarbers_footer_shop_image-400x312.png" alt="">
                     <button class="my_button"><a href="#" class="card-link">Shop our range now</a></button>
                 </div>
             </div>
@@ -48,7 +48,7 @@ export default {
             </div>
             <div class="col-4">
                 <div class="mini_shop py-2">
-                    <img src="../assets/img/avadabarbers_footer_appointment_image-400x312.png" alt="">
+                    <img src="../../assets/img/avadabarbers_footer_appointment_image-400x312.png" alt="">
                     <button class="my_button"><a href="#" class="card-link">Book your appointment</a></button>
                 </div>
 
@@ -65,7 +65,7 @@ export default {
 
 </template>
 <style lang="scss" scoped>
-@use '../assets/partials/variables' as *;
+@use '../../assets/partials/variables' as *;
 
 .barbers_footer {
     text-align: center;

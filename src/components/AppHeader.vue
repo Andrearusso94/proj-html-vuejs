@@ -1,6 +1,6 @@
 <script>
-import NavbarVue from './Navbar.vue';
-import PresentationVue from './Presentation.vue';
+import NavbarVue from './AppHeader/Navbar.vue';
+import PresentationVue from './AppHeader/Presentation.vue';
 export default {
     name: 'AppHeader',
     components: {

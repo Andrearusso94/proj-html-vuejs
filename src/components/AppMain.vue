@@ -1,10 +1,10 @@
 <script>
-import About from './About.vue'
-import Services from './Services.vue'
-import Products from './Products.vue'
-import Shavings from './Shavings.vue'
-import Reviews from './Reviews.vue'
-import Blog from './Blog.vue'
+import About from './AppMain/About.vue'
+import Services from './AppMain/Services.vue'
+import Products from './AppMain/Products.vue'
+import Shavings from './AppMain/Shavings.vue'
+import Reviews from './AppMain/Reviews.vue'
+import Blog from './AppMain/Blog.vue'
 export default {
     name: 'AppMain',
     components: {

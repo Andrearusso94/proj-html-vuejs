@@ -9,14 +9,14 @@ export default {
 
             <div class="row butter_shaving">
                 <div class="col-md-4 butter">
-                    <img src="../assets/img/shaving_butter-600x600.png" class="img-fluid " alt="">
+                    <img src="../../assets/img/shaving_butter-600x600.png" class="img-fluid " alt="">
                 </div>
                 <div class="col-md-8 butter_description">
                     <div class="card-body py-5 px-5 text-start ">
                         <h5 class="card-title">This months feautured product</h5>
                         <h2 class="my-2">Shaving Butter</h2>
                         <div class="butter_pharagraph py-5">
-                            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
                                 assumenda corrupti commodi dolor, dolorem similique, ea nam rerum tempora voluptate
                                 non consequatur. Soluta adipisci reiciendis impedit iste minima facere vitae.</p>
                             <button class="my_button"><a href="#" class="card-link">Buy Now</a></button>
@@ -29,7 +29,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../assets/partials/variables' as *;
+@use '../../assets/partials/variables' as *;
 
 
 
@@ -46,7 +46,7 @@ export default {
 }
 
 .butter {
-    background-image: url(../assets/img/avadabarbers-cta-background.jpg);
+    background-image: url(../../assets/img/avadabarbers-cta-background.jpg);
     background-size: cover;
 }
 

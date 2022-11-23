@@ -1,5 +1,5 @@
 <script>
-import FooterTop from './FooterTop.vue'
+import FooterTop from './AppFooter/FooterTop.vue'
 export default {
     name: 'AppFooter',
     components: {
