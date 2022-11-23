@@ -3,6 +3,7 @@ export default {
     name: 'Services',
     data() {
         return {
+            /*array servizi offerti*/
             services: [
                 {
                     image: '../../assets/img/avadabarbers-trimcut-icon-before.png',

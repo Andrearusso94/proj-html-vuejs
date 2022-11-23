@@ -4,6 +4,7 @@ export default {
     data() {
         return {
             person: [
+                /*array clienti */
                 {
                     img: '../../assets/img/avadabarbers-trimcut-gallery6-200x200.jpg',
                     name: 'John Doe',

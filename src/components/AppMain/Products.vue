@@ -3,7 +3,9 @@ export default {
     name: 'Products',
     data() {
         return {
+            /*array prodotti*/
             products: [
+
                 {
                     image: '../../assets/img/brush_dark-400x400.png',
                     title: 'Brush',

@@ -3,6 +3,7 @@ export default {
     name: 'Blog',
     data() {
         return {
+            /*array blog*/
             Blog: [
                 {
                     image: '../../assets/img/avadabarbers-second-blog-320x202.jpg',

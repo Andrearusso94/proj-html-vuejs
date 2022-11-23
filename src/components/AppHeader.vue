@@ -12,7 +12,10 @@ export default {
     <header>
         <div id="site_header" class="container-fluid">
 
+            <!--Menu navigazione-->
             <NavbarVue></NavbarVue>
+
+            <!--presentazione negozio-->
             <PresentationVue></PresentationVue>
 
         </div>

@@ -3,6 +3,7 @@ export default {
     name: 'FooterTop',
     data() {
         return {
+            /*array info negozio*/
             address: [
                 {
                     name: 'Avada Barbers',

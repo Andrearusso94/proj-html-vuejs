@@ -11,8 +11,12 @@ export default {
 <template>
     <footer id="site-footer">
         <div class="footer_top">
+
+            <!--sezione finale-->
             <FooterTop></FooterTop>
+
         </div>
+        <!--footer aggiuntivo copyrigth-->
         <div class="footer_bottom">
             <div class="copyright py-4">
                 <p>Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
